@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2579f8
+}
+
+h2 {
+    color: #2618f5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #6b53a1;
+    color: white;
+}
+
+tr {
+    background-color: #9ed1fa;
+}
+
+tr:hover {
+    background-color: #ca96f5;
+}
+
+
+
+.card {
+  max-width: 300px;
+  border-radius: 1rem;
+  background-color: #ff8484;
+  box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.05);
+}
+  .content {
+    text-align: center;
+    padding: 1.1ch;
+    background-color: #efefef;
+    border-radius: 0px 0px 10px 10px;
+  
+  }
+
+  .image {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    background: radial-gradient(100.03% 4252.07% at 0% 0%, #24c7f8 0%, #0459ba 100%);
+    border-radius:  10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    flex-wrap: wrap;
+  }
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background: radial-gradient(100.03% 4252.07% at 0% 0%, #24aaf8 0%, #0459ba 100%);
+    padding: 4px 8px;
+    border-radius: 4px;
+    
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+  
+  .container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0;
+    overflow: auto;
+  }
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    flex-wrap: wrap;
+  }
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background: radial-gradient(100.03% 4252.07% at 0% 0%, #24a3f8 0%, #0459ba 100%);
+    padding: 4px 8px;
+    border-radius: 4px;
+    
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+  
+  .container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0;
+    overflow: auto;
+  }
+  
+  #last{
+    margin-bottom: 80px;
+  }
+  
+  /* Media query */
+  @media(min-height: 896px){
+  
+.card {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0px 8px 10px 2px rgba(0, 0, 0, 0.05);
+}
+  
+  .content {
+    text-align: center;
+    padding: 1.1ch;
+  
+  }
+  
+  .image {
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+    background: radial-gradient(100.03% 4252.07% at 0% 0%, #24dff8 0%, #0468ba 100%);
+    border-radius: 0.5rem;
+  }
+  
+  .title {
+    color: #111827;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+  
+  .desc {
+    margin-top: 0.5rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    flex-wrap: wrap;
+  }
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    background: radial-gradient(100.03% 4252.07% at 0% 0%, #2492f8 0%, #0486ba 100%);
+    padding: 4px 8px;
+    border-radius: 4px;
+    
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }
+  
+  .container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin: 0;
+    overflow: auto;
+  }
+  
+  #last{
+    margin-bottom: 80px;
+  }
+#carlitos{
+    width: 60px;
+    height: 60px;
+  }
+}
